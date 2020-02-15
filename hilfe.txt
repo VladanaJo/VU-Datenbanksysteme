@@ -1,0 +1,14 @@
+1. Das Verzeichnis "JDBCTest" finden mit den Befehlen
+    z.B "cd Desktop/Studium/Datenbanksysteme/..."
+2. Java JDK Pfad festlegen:
+    set path=%path%;C:\Programme\Java\jdk-11.0.1\bin
+3. Kompilieren (mit dem JDBC-Driver):
+    javac -classpath ojdbc14.jar;. DBSGenerator.java RowInserter.java RandRowGenerator.java
+4. Ausführen des Programms:
+    java -classpath ojdbc14.jar;. DBSGenerator
+
+VLADANA
+1. cd Desktop - cd java
+2. set path=%path%;C:\Programme\Java\jdk1.8.0_191\bin
+3. javac -classpath ojdbc8.jar;. dbsGenerator.java ReiheHinzu.java RandomReiheGenerator.java
+4. java -classpath ojdbc8.jar;. dbsGenerator
