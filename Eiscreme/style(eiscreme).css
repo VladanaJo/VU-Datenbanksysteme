@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    background: url(eiscreme.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.naslov{
+   text-align: center;
+   font-size: 350%;
+   color: whitesmoke;
+   font-family: 'Playball', cursive;
+  }
+
+.sucheAlle{
+   text-align: left;
+   color: whitesmoke;
+   font-family: 'Playball', cursive;
+}
+
+.dropbtn {
+    background-color: rgb(223, 240, 255);
+    color: black;
+    padding: 12px;
+    font-size: 20px;
+    border-bottom-color: sienna;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Playball', cursive;
+}
+
+
+  /* Links inside the dropdown */
+  .dropdown-content>a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content>a:hover {
+    background-color: rgb(183, 134, 134);
+    color: white;
+}
+
+.tabela{
+  padding: 2%;
+}
+
+.suche{
+  padding-left: 8%;
+}
+
